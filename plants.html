@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Assignment 05</title>
+  <title>Plant details</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -13,189 +13,212 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expanded-md navbar-light bg-light">  
-<a class="navbar-brand" href="    ">Interesting plants</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarsupportedcontent">  
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarSupportscontent">
-  <u1 class="navbar-nav mr-auto">
-    <li class="nav-link">
-      <a class="nav-link active" href=" ">Basic</a>
-      </li>
-    <li class="nav-link">
-    <a class="nav-link active" href=" ">Advanced HMTL</a>
-    </li>    
-  </u1>
-</div>
-</nav>    
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="basic.html"><h5>BASIC</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html"><h5>ADVANCED</h5></a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+        <h1>Plants by Rama Krishna Reddy Boggula</h1>
+        <div class="col-sm-2">B</div>
+        <div class="col-sm-2">O</div>
+        <div class="col-sm-2">G</div>
+        <div class="col-sm-2">G</div>
+        <div class="col-sm-2">U</div>
+        <div class="col-sm-2">L</div>
+   </div>
+      <div class="row">
+        <div class="col-md">Bambusa</div>
+        <div class="col-md"> Orchid</div>
+        <div class="col-md">Gaillardia</div>
+        <div class="col-md">Gardenia</div>
+        <div class="col-md">Umberella plant</div>
+        <div class="col-md">LAMIUM</div>
+      </div>
+    <br>
+        <p>The plant names row is broken first, the class prefix sm indicates small and md indicates 
+          mediumUsing a single set of .col-sm-* classes, you can create a basic grid system that starts 
+          out stacked and becomes horizontal at the small breakpoint (sm) and number indicates width so 
+          the the class name with width still remains in horizontal stack.  </p>
+    </div>
+    <div class="container">
+      <h2>Responsive Images</h2>
+      <img src="Bambusa.jpg" class="img-thumbnail"class="img-fluid" alt="Image of Bambusa" width="300" height="300">
+      <img src="Orchid.jpg" class="img-thumbnail"class="img-fluid" alt="Image of Orchid" height="300" width="300" >
+      <img src="Gaillardia.jpg" class="img-thumbnail"class="img-fluid" alt="Image of Gaillardia" width="300" height="300">
     
-<h1>Plants by Rama Krishna Reddy Boggula</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-me-2">B</div>
-     <div class="col-me-2">O</div>
-     <div class="col-me-2">G</div>
-     <div class="col-me-2">G</div>
-      <div class="col-me-2">U</div>
-      <div class="col-me-2">L</div>
     </div>
-  <div class="row">
-    <div class="col-md">Bambusa</div>
-      <div class="col-md"> Orchid</div>
-      <div class="col-md">Gaillardia</div>
-      <div class="col-md">Gardenia</div>
-      <div class="col-md">Umberella plant</div>
-      <div class="col-md">LAMIUM</div>
-    </div>
-  </div>   
-  <p> The plant names are given in the order of my last name letters starting with B upto word L </p>
-  
-  <div class="container">
-    <img src="Bambusa.jpg" class="img-fluid" height="300" width="300" alt="Bambusa">
-    <img src="orchid.jpg" class="img-fluid" height="300" width="300" alt="orchid">
-    <img src="Gaillardia.jpg" class="img-fluid" height="300" width="300" alt="Gaillardia">   
-  </div>
-  <div class="container">
-    <img src="Bambusa.jpg" class="img-thumbnail" height="300" width="300" alt="Bambusa">
-    <img src="orchid.jpg" class="img-thumbnail" height="300" width="300" alt="orchid">
-    <img src="Gaillardia.jpg" class="img-thumbnail" height="300" width="300" alt="Gaillardia">
-  </div>
-  
-  <table class="table table-striped table-hover table-bordered caption-top caption-top">
-    <caption>We have plants, mountains and lakes.They start with the followin letters</caption>
-    <thread class="table-dark">
-      <tr>
-        <th scope="col">letter</th>
-        <th scope="col">plant</th>
-        <th scope="col">mountain</th>
-        <th scope="col">lake</th>
-      </tr>
-      </thread>
-      <tbody class="table-group-divider">  
-        
-        <tr>
-          <th scope="row">B</th>
-          <td>Bambusa</td>
-          <td>Boardman peak</td>
-          <td>Baikal</td>
-        </tr>
-        <tr>
-          <th scope="row">O</th>
-          <td>Orchid</td>
-          <td>Organ Mountain</td>
-          <td>Okanagan</td>
-        </tr>
-        <tr>
-          <th scope="row">G</th>
-          <td>Gaillardia</td>
-          <td>Gannett peak.</td>
-          <td>Gairdner</td>
-        </tr>
-        <tr>
-          <th scope="row">G</th>
-          <td>Gardenia</td>
-          <td>Galatea.</td>
-          <td>Galstas</td>
-        </tr>
-        <tr>
-          <th scope="row">U</th>
-          <td>Umberella plant</td>
-          <td>ultar.</td>
-          <td>Ullswater</td>
-        </tr>
-        <tr>
-          <th scope="row">L</th>
-          <td>LAMIUM</td>
-          <td> lincoln peak.</td>
-          <td>La Plata</td>
-        </tr>
 
+    <div class="container">
+      <h2>Thumbnail images</h2>
+      <img src="Bambusa.jpg" class="img-thumbnail"alt="Image of Bambusa" width="300" height="300">
+      <img src="Orchid.jpg"class="img-thumbnail" alt="Image of Orcid" height="300" width="300" >
+      <img src="Gaillardia.jpg"  class="img-thumbnail"alt="Image of Gaillardia" width="300" height="300">
+    
+    </div>
+    <table class="table table-striped table-hover table-bordered caption-top">
+      <caption>Table of plants,Mountains and Lakes</caption>
+      <thead>
+        <tr>
+          <th>Letter</th>
+          <th>Plant</th>
+          <th>Mountain</th>
+          <th>Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="table-primary">B</td>
+          <td class="table-primary">Bambusa</td>
+          <td class="table-primary">Boardman peak</td>
+          <td class="table-primary">Baikal lake</td>
+          
+          
+          
+        </tr>
+        <tr>
+          <td class="table-secondary">O</td>
+          <td class="table-secondary">Orchid</td>
+          <td class="table-secondary">Organ Mountain</td>
+          <td class="table-secondary">Okanagan</td>
+          
+         
+        </tr>
+        <tr>
+          <td class="table-success">G</td>
+          <td class="table-success">Gaillardia</td>
+          <td class="table-success">Galatea.</td>
+          <td class="table-success">Galstas</td>
+          
+         
+        </tr>
+        <tr>
+          <td class="table-danger">G</td>
+          <td class="table-danger">Gardenia</td>
+          <td class="table-danger">Gannett peak.</td>
+          <td class="table-danger">Gairdner lake</td>
+         
+         
+        </tr>
+        <tr>
+          <td class="table-warning">U</td>
+          <td class="table-warning">Umberella plant</td>
+          <td class="table-warning">Ultar.</td>
+          <td class="table-warning">Ullswater</td>
+        </tr>
+        <tr>
+          <td class="table-info">L</td>
+          <td class="table-info">Lamium</td>
+          <td class="table-info">Lincoln peak.</td>
+          <td class="table-info">La Plata Lake</td>
+        </tr>
       </tbody>
-    </tr>
-  </table>
+    </table>
+<div class="btn-toolbar">
+    <div class="btn-group"  aria-label="Basic example">
+      <button type="button" class="btn btn-success">B</button>
+      <button type="button" class="btn btn-success">O</button>
+      <button type="button" class="btn btn-success">G</button>
+    </div>
 
-        <div class="btn-toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group me-2" role="group" aria-label="First Group">
-          <button type="button" class="btn btn-success">B</button>
-          <button type="button" class="btn btn-success">O</button>
-          <button type="button" class="btn btn-success">G</button>
-        </div>
-        <div class="btn-group me-2" role="group" aria-label="second group">
-          <button type="button" class="btn btn-success">G</button>
-          <button type="button" class="btn btn-success">U</button>
-        </div>
-        <div class="btn-group me-2" role="group" aria-label="Third group">
-          <button type="button" class="btn btn-success">L</button>
-        </div>  
-      <div>
-      <div class="dropdown">
-      <button type="buttonb" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">dropdown</button>
-      <div class="dropdown-menu">
+    <div class="btn-group" aria-label="Basic example">
+      <button type="button" class="btn btn-warning">G</button>
+      <button type="button" class="btn btn-warning">G</button>
+    </div>
 
-      <div class="drop-item" href="basic.html">Basic Bootstrap Script</a>
-      <div class="drop-item" href="advanced.html">Adavanced Bootstrap</a>
-      </div>
+    <div class="btn-group" aria-label="Basic example">
+      <button type="button" class="btn btn-danger">L</button>
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" dir="ltr">Dropdown button</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic html</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced html</a></li>
+    </ul>
+  </div>
+  <br><br>
+  <br>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="form-label">Enter your Plant</label>
+      <input type="text" class="form-control" placeholder="Enter your plant">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+<h1>BONUS</h1>  
+<div class="card-group">
+  <div class="card" style="width: 18rem;">
+    <img src="Bambusa.jpg" class="card-img-top" alt="Image of Bambusa">
+    <div class="card-body">
+      <h5 class="card-title">Bambusa</h5>
+      <p class="card-text"> Bambusa is a large genus of clumping bamboos.Most species of Bambusa are 
+      rather large, with  numerous branches emerging from the nodes, and one or two much larger than the rest.</p>
+    </div>
+    <div class="card-body btn-toolbar">
+      <button type="button" class="btn btn-success" style="background-color:green">
+        <a href="https://en.wikipedia.org/wiki/Bambusa" class="card-link" 
+        style="color:black;font-size: 30px;">Bambusa</a></button>
+    </div>
+  </div>
 
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1"class="form-label">Email address</label>
-          <input type="email"class="form-control" id="exampleInputEmail" aria-description="emailhelp">
-          <div id="emailhelp" class="form-text">Your Emailwill not be shared with anyone</div> 
-        </div>
+  <div class="card" style="width: 18rem;">
+    <img src="Orchid.jpg" class="card-img-top" alt="Image of Orchid ">
+    <div class="card-body">
+      <h5 class="card-title">Orchid</h5>
+      <p class="card-text">Orchids are plants that belong to the family Orchidaceae a diverse and 
+        widespread group of flowering plants with blooms that are often colourful and fragrant.</p>
         
-        <form>
-          <div clas="form-group">
-            <label class="form-label">plant</label>
-            <input type="checkbox" class="form-check-input">
-          </div>
-          <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
-      <div class="card-group container" style="width: 50px;">
-      <div class="card">      
-        <img src="Bambusa.jpg" class="card-img-top">
-        <div class="card-body">
-          <h3>Bambusa</h3>
-          <p class="card-text">Bambusa</p>
-          <a href="https://en.wikipedia.org/wiki/Bambusa"class="btn btn-primary">wikipedia about Bambusa</a>
-          <p>
-            Bambusa is a large genus of clumping bamboos.Most species of Bambusa are rather large, with 
-            numerous branches emerging from the nodes, and one or two much larger than the rest. The branches 
-            can be as long as 11 m (35 ft). They are native to Southeast Asia, South Asia, China, Taiwan, 
-            the Himalayas, New Guinea, Melanesia, and the Northern Territory of Australia. They are also reportedly 
-            naturalized in other regions, e.g. Africa, Americas, and various oceanic islands.
-          </p>
-        </div>
-      </div>
-      
-      <div class="card">      
-        <img src="orchid.jpg" class="card-img-top">
-        <div class="card-body">
-          <h3>Bambusa</h3>
-          <p class="card-text">Gaillardia</p>
-          <a href="https://en.wikipedia.org/wiki/Orchid"class="btn btn-primary">wikipedia about Orchid</a>
-          <p>
-            Orchids are plants that belong to the family Orchidaceae a diverse and widespread group of flowering 
-            plants with blooms that are often colourful and fragrant.Along with the Asteraceae, the Orchidaceae 
-            is one of the two largest families of flowering plants. There about 28,000 currently accepted species, 
-            distributed in about 763 genera.The determination of which family is larger is still under debate
-            because verified data on the members of such enormous families are continually in flux. 
-        </div>
-      </div>
-      <div class="card">      
-        <img src="Gaillardia.jpg" class="card-img-top">
-        <div class="card-body">
-          <h3>Bambusa</h3>
-          <p class="card-text">Orchid</p>
-          <a href="https://en.wikipedia.org/wiki/Gaillardia"class="btn btn-primary">wikipedia about Gaillardia</a>
-          <p>
-            Gaillardia (common name blanket flower) is a genus of flowering plants in the family Asteraceae, 
-            native to North and South America. It was named after Maître Gaillard de Charentonneau,an 18th-century 
-            French magistrate who was an enthusiastic botanist. The common name may refer to the resemblance of the 
-            inflorescence to the brightly patterned blankets made by Native Americans, or to the ability of wild taxa 
-            to blanket the ground with colonies.Many cultivars have been bred for ornamental use.
-          </p>
-        </div>
-      </div>  
+    </div>
+    <div class="card-body btn-toolbar">
+      <button type="button" class="btn btn-success" style="background-color:green">
+        <a href="https://en.wikipedia.org/wiki/Orchid" class="card-link" 
+        style="color:black;font-size: 30px;">Orchid</a></button>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="Gaillardia.jpg" class="card-img-top" alt="Image of Gaillardia">
+    <div class="card-body">
+      <h5 class="card-title">Gaillardia</h5>
+      <p class="card-text">Gaillardia (common name blanket flower) is a genus of flowering plants
+         in the family Asteraceae, native to North and South America.</p>
+        
+    </div>
+    <div class="card-body btn-toolbar">
+      <button type="button" class="btn btn-success" style="background-color:green">
+        <a href="https://en.wikipedia.org/wiki/Gaillardia" class="card-link"
+         style="color:black;font-size: 30px;">Gaillandria</a></button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
